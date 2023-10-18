@@ -1,0 +1,20 @@
+﻿<Application x:Class="WPFHospitalManagementSystem.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPFHospitalManagementSystem"
+             StartupUri="Login/LoginWindow.xaml"
+             xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/MenuButtonTheme.xaml"/>
+                <ResourceDictionary Source="Theme/CloseAndMinimizeBtnTheme.xaml"/>
+                <ResourceDictionary Source="Theme/AddDoctorPageTheme.xaml"/>
+                <ResourceDictionary Source="Theme/GenderRadioButton.xaml"/>
+                <ResourceDictionary Source="Theme/LoginWindowButton.xaml"/>
+                <ResourceDictionary Source="Theme/DashboardDesignThemes.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+                                                        
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

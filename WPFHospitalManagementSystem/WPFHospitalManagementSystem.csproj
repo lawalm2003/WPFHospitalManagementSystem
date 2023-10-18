@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontAwesome.Sharp" Version="6.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HMS.App\HMS.App.csproj" />
+    <ProjectReference Include="..\HMS.Domain\HMS.Domain.csproj" />
+    <ProjectReference Include="..\HMS.Persistence\HMS.Persistence.csproj" />
+    <ProjectReference Include="..\LMS.Infrastructure\HMS.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DoctorView\Pages\" />
+    <Folder Include="DoctorView\Views\" />
+    <Folder Include="PatientView\Pages\" />
+    <Folder Include="PatientView\View\" />
+  </ItemGroup>
+
+</Project>
